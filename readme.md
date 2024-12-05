@@ -5,7 +5,22 @@ Proyecto de análisis de datos de vuelos utilizando PySpark para procesamiento d
 
 ## Estructura del Proyecto
 
-proyecto/ ├── data/ │ ├── fecha.dat │ ├── paises.ada │ ├── retrasos.dat │ └── vuelos.dat ├── src/ │ ├── init.py │ ├── analysis.py │ ├── data_loader.py │ └── main.py ├── tests/ │ ├── init.py │ ├── conftest.py │ └── test_main.py ├── output/ ├── .gitignore ├── requirements.txt └── README.md
+proyecto/
+├── data/
+│   ├── fecha.dat
+│   ├── paises.ada
+│   ├── retrasos.dat
+│   └── vuelos.dat
+├── src/
+│   ├── __init__.py
+│   ├── analysis.py
+│   └── data_loader.py
+├── tests/
+│   ├── __init__.py
+│   ├── conftest.py
+│   └── test_main.py
+├── output/
+└── requirements.txt
 
 ## Requisitos
 - Python 3.8+
